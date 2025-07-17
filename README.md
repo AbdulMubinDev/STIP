@@ -89,5 +89,6 @@ Feel free to connect or ask for collaboration:
 
 * GitHub: https://github.com/AbdulMubinDev
 * Email: abdulmubin.dev@gmail.com
+* Twitter: https://x.com/AbdulMubinDev
 
 ---
