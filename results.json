@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-07-22T02:11:13.964809",
+  "source": "interactive input",
+  "iocs": {
+    "ips": [],
+    "hashes": {
+      "md5": [],
+      "sha1": [],
+      "sha256": []
+    },
+    "urls": [],
+    "domains": [],
+    "total_count": 0
+  },
+  "metadata": {
+    "text_length": 23,
+    "processing_tool": "STIP CLI MVP v1.0"
+  }
+}

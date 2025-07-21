@@ -1,0 +1,107 @@
+{
+  "sessions": [
+    {
+      "timestamp": "2025-07-22T02:07:35.181218",
+      "source": "CLI collection",
+      "iocs": {
+        "ips": [
+          "192.168.100.50",
+          "203.45.67.23",
+          "185.234.218.45",
+          "203.45.67.15",
+          "10.0.0.1",
+          "45.129.56.12",
+          "203.45.67.0"
+        ],
+        "hashes": {
+          "md5": [
+            "d41d8cd98f00b204e9800998ecf8427e",
+            "5d41402abc4b2a76b9719d911017c592"
+          ],
+          "sha1": [
+            "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d"
+          ],
+          "sha256": [
+            "2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae"
+          ]
+        },
+        "urls": [
+          "http://malware-download.badsite.org/payload.bin",
+          "https://command.evil-actor.net/api/checkin",
+          "http://fake-bank.evil-domain.org/login",
+          "https://data-steal.badactor.net/upload",
+          "http://185.234.218.45/gate.php"
+        ],
+        "domains": [
+          "update.fake-software.biz",
+          "config.bin",
+          "payload.bin",
+          "malicious.example.com",
+          "download.trojan-family.info",
+          "suspicious-cdn.malware-host.com",
+          "gate.php"
+        ],
+        "total_count": 23
+      }
+    },
+    {
+      "timestamp": "2025-07-22T02:07:55.272262",
+      "source": "CLI collection",
+      "iocs": {
+        "ips": [
+          "192.168.100.50",
+          "10.0.0.1",
+          "203.45.67.15",
+          "45.129.56.12",
+          "203.45.67.0",
+          "185.234.218.45",
+          "203.45.67.23"
+        ],
+        "hashes": {
+          "md5": [
+            "d41d8cd98f00b204e9800998ecf8427e",
+            "5d41402abc4b2a76b9719d911017c592"
+          ],
+          "sha1": [
+            "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d"
+          ],
+          "sha256": [
+            "2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae"
+          ]
+        },
+        "urls": [
+          "http://185.234.218.45/gate.php",
+          "https://command.evil-actor.net/api/checkin",
+          "https://data-steal.badactor.net/upload",
+          "http://malware-download.badsite.org/payload.bin",
+          "http://fake-bank.evil-domain.org/login"
+        ],
+        "domains": [
+          "suspicious-cdn.malware-host.com",
+          "download.trojan-family.info",
+          "gate.php",
+          "malicious.example.com",
+          "payload.bin",
+          "config.bin",
+          "update.fake-software.biz"
+        ],
+        "total_count": 23
+      }
+    },
+    {
+      "timestamp": "2025-07-22T02:11:13.965202",
+      "source": "CLI collection",
+      "iocs": {
+        "ips": [],
+        "hashes": {
+          "md5": [],
+          "sha1": [],
+          "sha256": []
+        },
+        "urls": [],
+        "domains": [],
+        "total_count": 0
+      }
+    }
+  ]
+}

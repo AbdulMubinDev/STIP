@@ -1,0 +1,35 @@
+Threat Intelligence Report - Malware Campaign Analysis
+Date: 2024-07-19
+Source: OSINT Collection
+
+===== INDICATORS OF COMPROMISE =====
+
+NETWORK INDICATORS:
+- Command & Control Server: 45.129.56.12:8080
+- Malicious domain: malicious.example.com
+- Additional C2: 192.168.100.50
+- Phishing site: http://fake-bank.evil-domain.org/login
+- Data exfil endpoint: https://data-steal.badactor.net/upload
+
+FILE HASHES:
+- MD5: 5d41402abc4b2a76b9719d911017c592 (dropper.exe)
+- SHA1: aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d (payload.dll)
+- SHA256: 2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae (config.bin)
+- MD5: d41d8cd98f00b204e9800998ecf8427e (empty file hash)
+
+ADDITIONAL SUSPICIOUS DOMAINS:
+- suspicious-cdn.malware-host.com
+- update.fake-software.biz
+- download.trojan-family.info
+
+COMPROMISED INFRASTRUCTURE:
+IP Range: 203.45.67.0/24 appears to be compromised
+Specific IPs of interest:
+- 203.45.67.15 (web shell detected)
+- 203.45.67.23 (botnet member)
+- 10.0.0.1 (internal network - ignore)
+
+ADDITIONAL URLS:
+- http://malware-download.badsite.org/payload.bin
+- https://command.evil-actor.net/api/checkin
+- http://185.234.218.45/gate.php
